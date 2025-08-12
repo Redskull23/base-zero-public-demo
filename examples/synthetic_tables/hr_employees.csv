@@ -1,0 +1,4 @@
+employee_id,first_name,last_name,email,department,manager_email
+1001,Alex,Stone,alex.stone@example.com,Engineering,manager.eng@example.com
+1002,Bailey,Ross,bailey.ross@example.com,Finance,manager.fin@example.com
+1003,Casey,Ng,casey.ng@example.com,Supply Chain,manager.sc@example.com

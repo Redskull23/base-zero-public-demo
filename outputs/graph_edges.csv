@@ -1,0 +1,7 @@
+subject,relation,object,evidence
+alex.stone@example.com,belongs_to,Engineering,department field
+bailey.ross@example.com,belongs_to,Finance,department field
+casey.ng@example.com,belongs_to,Supply Chain,department field
+1001,pays,Monthly software invoice,txn description
+1002,pays,Equipment asset purchase,txn description
+1003,pays,Office supplies debit,txn description

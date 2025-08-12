@@ -1,0 +1,8 @@
+Business Source License 1.1 (BSL)
+
+Licensor: Andrew Pepper (Base Zero / Syntropy public demo)
+Licensed Work: Base Zero — Public Demo (Safe Share)
+
+This license allows non-production, non-commercial use with restrictions.
+Commercial use requires a separate commercial license from the Licensor.
+See https://mariadb.com/bsl11/ for overview. This file is not legal advice.

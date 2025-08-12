@@ -1,0 +1,14 @@
+adapter:
+  type: local_csv
+  options:
+    tables:
+      - examples/synthetic_tables/hr_employees.csv
+      - examples/synthetic_tables/finance_transactions.csv
+
+taxonomy_path: examples/taxonomy/base_zero_public.yaml
+
+outputs:
+  dir: outputs
+  write_concept_tags: true
+  write_vector_like: true
+  write_graph_edges: true

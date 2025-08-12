@@ -1,0 +1,4 @@
+txn_id,employee_id,amount,currency,description
+TX10001,1001,199.99,USD,Monthly software invoice
+TX10002,1002,1250.00,USD,Equipment asset purchase
+TX10003,1003,45.50,USD,Office supplies debit

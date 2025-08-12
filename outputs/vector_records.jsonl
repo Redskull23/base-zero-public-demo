@@ -1,0 +1,6 @@
+{"table": "hr_employees", "row_id": 4727014, "concept_ids": ["BZ.L1.ENT.Person"], "vector": [0.764]}
+{"table": "hr_employees", "row_id": 9961070, "concept_ids": ["BZ.L1.ENT.Person"], "vector": [0.764]}
+{"table": "hr_employees", "row_id": 3848711, "concept_ids": ["BZ.L1.ENT.Person"], "vector": [0.764]}
+{"table": "finance_transactions", "row_id": 1082130, "concept_ids": ["BZ.L1.FIN.Transaction"], "vector": [0.992]}
+{"table": "finance_transactions", "row_id": 2324497, "concept_ids": ["BZ.L1.FIN.Asset"], "vector": [0.238]}
+{"table": "finance_transactions", "row_id": 5318113, "concept_ids": ["BZ.L1.FIN.Transaction"], "vector": [0.992]}

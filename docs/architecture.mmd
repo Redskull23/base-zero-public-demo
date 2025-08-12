@@ -1,0 +1,14 @@
+flowchart LR
+  subgraph Ingest
+    A[Adapter: CSV] --> N[Normalize]
+  end
+  subgraph Concepts
+    M[Mock LCM] --> T[Concept Tags]
+  end
+  subgraph Outputs
+    T --> G[Graph Edges]
+    M --> V[Vector-like JSONL]
+  end
+  N --> M
+  A --> X[Audit Trail] & N
+  M --> X

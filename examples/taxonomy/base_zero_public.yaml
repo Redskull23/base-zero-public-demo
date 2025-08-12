@@ -1,0 +1,24 @@
+version: 0.1
+domains:
+  - id: BZ.L1.ENT
+    name: ENTITY
+    concepts:
+      - id: BZ.L1.ENT.Person
+        tags: [identity, individual]
+        keywords: [name, email, employee, manager]
+      - id: BZ.L1.ENT.Organization
+        tags: [organization, unit]
+        keywords: [department, cost center, vendor]
+  - id: BZ.L1.FIN
+    name: FINANCE
+    concepts:
+      - id: BZ.L1.FIN.Transaction
+        tags: [payment, transfer]
+        keywords: [invoice, amount, credit, debit, price]
+      - id: BZ.L1.FIN.Asset
+        tags: [asset, value]
+        keywords: [asset, sku, inventory, item]
+relations:
+  - type: belongs_to
+  - type: pays
+  - type: manages
