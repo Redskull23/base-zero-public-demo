@@ -1,17 +1,19 @@
 # Base Zero — Public Demo (Safe Share)
 
-This repository demonstrates the **shape** of the Syntropy/Base Zero concept-intelligence pipeline
-**without** exposing core IP. It ships with **synthetic data**, a **mock LCM**, and a **pluggable adapter**
-pattern so you can run end-to-end locally and show value on GitHub/LinkedIn.
+This repository demonstrates the **shape** of the Syntropy/Base Zero concept-intelligence pipeline **without** exposing core IP.  
+It ships with **synthetic data**, a **mock LCM**, and a **pluggable adapter** pattern so you can run end-to-end locally and show value on GitHub/LinkedIn.
 
-> ⚠️ **IP Safety**: This repo excludes proprietary taxonomies, rules, prompts, embeddings, and
-> any client-specific schemas. All examples and outputs are synthetic.
+> ⚠️ **IP Safety**: This repo excludes proprietary taxonomies, rules, prompts, embeddings, and any client-specific schemas. All examples and outputs are synthetic.
+
+---
 
 ## What this shows
 - Ingestion from a pluggable **adapter** (CSV in this demo; swap for Databricks in private)
 - A **Mock LCM** that performs rule-based concept tagging (replace with your private LCM)
 - Unified outputs to **vector-like** JSONL & simple **graph edge list**
 - **Governance trace**: run metadata + audit log to illustrate explainability
+
+---
 
 ## Quickstart
 ```bash
@@ -23,14 +25,12 @@ pip install -r requirements.txt
 
 # 3) Run demo (uses synthetic CSV adapter + mock LCM)
 python -m src.pipeline.run --config src/pipeline/config.yaml
-```
 
-Outputs are written to `./outputs/`:
-- `concept_tags.jsonl` — row-level concept tags
-- `vector_records.jsonl` — toy vector-like output (no real embeddings)
-- `graph_edges.csv` — simple subject→object edges for visualization
-- `audit_log.jsonl` — governance/audit trail of the run
-
+Outputs are written to ./outputs/:
+	•	concept_tags.jsonl — row-level concept tags
+	•	vector_records.jsonl — toy vector-like output (no real embeddings)
+	•	graph_edges.csv — simple subject→object edges for visualization
+	•	audit_log.jsonl — governance/audit trail of the run
 ## Architecture (public-safe)
 ```mermaid
 flowchart LR
