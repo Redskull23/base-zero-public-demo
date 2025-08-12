@@ -50,4 +50,4 @@ Swap **A** for a private Databricks adapter and **C** for your private LCM logic
 - `src/pipeline/config.yaml` → adapt adapters + output sinks privately
 
 ## License
-**Business Source License 1.1 (BSL)
+**Business Source License 1.1 (BSL)**
